@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Understanding “A^^h*les and the Dirty Dozen Behaviors</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 2em;
+      line-height: 1.7;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    ol, ul {
+      margin-left: 1.5em;
+    }
+    a {
+      display: inline-block;
+      margin-top: 2em;
+      padding: 0.6em 1em;
+      background-color: #2c3e50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: #1a242f;
+    }
+  </style>
+</head>
+<body>
+  <h1>Understanding “A^^h*les and the Dirty Dozen Behaviors</h1>
+
+  <p>In <em>The No A^^h*le Rule</em>, Robert I. Sutton zeroes in on a precise definition of workplace “assholes”—not merely people who irritate us now and then, but those whose actions consistently erode others’ dignity. He offers two litmus tests to spot them: after an interaction, do people feel oppressed, humiliated, or otherwise worse off? And are the targets typically less powerful? Failing these tests labels someone a “certified asshole,” distinguished from a temporarily rude individual by their persistent nastiness and hunger for dominance.</p>
+
+  <p><strong>Key attributes of these certified assholes include:</strong></p>
+  <ul>
+    <li><strong>Lack of empathy:</strong> They’re indifferent to how their actions hurt others.</li>
+    <li><strong>Power seeking:</strong> They repeatedly pick on those unable to push back.</li>
+    <li><strong>Humiliation tactics:</strong> They degrade colleagues to assert superiority.</li>
+    <li><strong>Emotional contagion:</strong> Their negativity spreads, dragging down morale.</li>
+    <li><strong>Resistance to feedback:</strong> They dismiss criticism and double down on bad behavior.</li>
+  </ul>
+
+  <p>Sutton catalogs the hallmark tactics of assholes as the <strong>Dirty Dozen</strong>:</p>
+  <ol>
+    <li>Insults – direct verbal attacks.</li>
+    <li>Personal‐space violation – looming, invading one’s bubble.</li>
+    <li>Unsolicited touching – grabbing or poking without consent.</li>
+    <li>Threats – implicit or explicit promises of harm.</li>
+    <li>Sarcasm – cutting remarks cloaked as humor.</li>
+    <li>Flames – harsh, angry emails or messages.</li>
+    <li>Humiliation – calling out failures in front of others.</li>
+    <li>Shaming – ostracizing or belittling publicly.</li>
+    <li>Interruption – talking over or derailing someone.</li>
+    <li>Backbiting – whisper campaigns and gossip.</li>
+    <li>Glaring – hostile stares that intimidate.</li>
+    <li>Snubbing – cold‐shouldering and exclusion.</li>
+  </ol>
+
+  <p>By identifying and excising these behaviors, organizations protect morale, foster trust, and unlock true collaborative potential. Embracing Sutton’s rule isn’t about outlawing assertiveness or debate—it’s about safeguarding respect and emotional safety in every interaction.</p>
+
+  <a href="quiz.html">→ Take the Quiz</a>
+</body>
+</html>
