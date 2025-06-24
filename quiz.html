@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certified Asshole Quiz</title>
+</head>
+<body>
+
 <!-- Q1 -->
 <div class="question">
   <strong>1. Sutton’s “litmus test” for a certified asshole asks which two questions?</strong>
@@ -95,107 +103,4 @@
     <label><input type="radio" name="q9" value="C"> C) Sending a scathing group email</label>
     <label><input type="radio" name="q9" value="D"> D) Ignoring someone’s greeting</label>
   </div>
-</div>
-
-<!-- Q10 -->
-<div class="question">
-  <strong>10. Why does Sutton insist on calling them “assholes” instead of “bullies” or “jerks”?</strong>
-  <div class="options">
-    <label><input type="radio" name="q10" value="A"> A) It’s more polite in corporate settings</label>
-    <label><input type="radio" name="q10" value="B"> B) It captures the enduring, systemic nastiness of their behavior</label>
-    <label><input type="radio" name="q10" value="C"> C) It’s legally more defensible</label>
-    <label><input type="radio" name="q10" value="D"> D) It sounds more academic</label>
-  </div>
-</div>
-
-<!-- Q11 -->
-<div class="question">
-  <strong>11. Which Dirty Dozen tactic involves whisper campaigns and rumor-spreading?</strong>
-  <div class="options">
-    <label><input type="radio" name="q11" value="A"> A) Backbiting</label>
-    <label><input type="radio" name="q11" value="B"> B) Snubbing</label>
-    <label><input type="radio" name="q11" value="C"> C) Glaring</label>
-    <label><input type="radio" name="q11" value="D"> D) Insults</label>
-  </div>
-</div>
-
-<!-- Q12 -->
-<div class="question">
-  <strong>12. How does humiliation differ from shaming in Sutton’s framework?</strong>
-  <div class="options">
-    <label><input type="radio" name="q12" value="A"> A) Humiliation = calling out failures in front of others; Shaming = ostracizing or belittling publicly</label>
-    <label><input type="radio" name="q12" value="B"> B) Humiliation = gossiping behind someone’s back; Shaming = angry emails</label>
-    <label><input type="radio" name="q12" value="C"> C) Humiliation = giving sarcastic praise; Shaming = violent threats</label>
-    <label><input type="radio" name="q12" value="D"> D) Humiliation = friendly teasing; Shaming = ignoring someone</label>
-  </div>
-</div>
-
-<!-- Q13 -->
-<div class="question">
-  <strong>13. Which scenario best exemplifies snubbing?</strong>
-  <div class="options">
-    <label><input type="radio" name="q13" value="A"> A) Excluding a team member from an important group chat</label>
-    <label><input type="radio" name="q13" value="B"> B) Publicly mocking someone’s presentation</label>
-    <label><input type="radio" name="q13" value="C"> C) Sending a profanity-laced email</label>
-    <label><input type="radio" name="q13" value="D"> D) Staring someone down in the hallway</label>
-  </div>
-</div>
-
-<!-- Q14 -->
-<div class="question">
-  <strong>14. Which of the following is NOT one of the Dirty Dozen?</strong>
-  <div class="options">
-    <label><input type="radio" name="q14" value="A"> A) Threats</label>
-    <label><input type="radio" name="q14" value="B"> B) Unsolicited touching</label>
-    <label><input type="radio" name="q14" value="C"> C) Handshaking</label>
-    <label><input type="radio" name="q14" value="D"> D) Snubbing</label>
-  </div>
-</div>
-
-<!-- Q15 -->
-<div class="question">
-  <strong>15. Screening out certified assholes benefits organizational culture by:</strong>
-  <div class="options">
-    <label><input type="radio" name="q15" value="A"> A) Protecting employee morale</label>
-    <label><input type="radio" name="q15" value="B"> B) Fostering trust</label>
-    <label><input type="radio" name="q15" value="C"> C) Unlocking true collaboration</label>
-    <label><input type="radio" name="q15" value="D"> D) All of the above</label>
-  </div>
-</div>
-
-<button type="button" id="submit" onclick="gradeQuiz()">Submit</button>
-<!-- All your quiz HTML ends here -->
-
-<script>
-function gradeQuiz() {
-  const answers = {
-    q1: "B",
-    q2: "A",
-    q3: "C",
-    q4: "D",
-    q5: "B",
-    q6: "A",
-    q7: "A",
-    q8: "A",
-    q9: "B",
-    q10: "B",
-    q11: "A",
-    q12: "A",
-    q13: "A",
-    q14: "C",
-    q15: "D"
-  };
-
-  let score = 0;
-  let total = Object.keys(answers).length;
-
-  for (let key in answers) {
-    const selected = document.querySelector(`input[name="${key}"]:checked`);
-    if (selected && selected.value === answers[key]) {
-      score++;
-    }
-  }
-
-  alert(`You got ${score} out of ${total} correct.`);
-}
-</script>
+</div
