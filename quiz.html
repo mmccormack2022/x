@@ -164,3 +164,38 @@
 </div>
 
 <button type="button" id="submit" onclick="gradeQuiz()">Submit</button>
+<!-- All your quiz HTML ends here -->
+
+<script>
+function gradeQuiz() {
+  const answers = {
+    q1: "B",
+    q2: "A",
+    q3: "C",
+    q4: "D",
+    q5: "B",
+    q6: "A",
+    q7: "A",
+    q8: "A",
+    q9: "B",
+    q10: "B",
+    q11: "A",
+    q12: "A",
+    q13: "A",
+    q14: "C",
+    q15: "D"
+  };
+
+  let score = 0;
+  let total = Object.keys(answers).length;
+
+  for (let key in answers) {
+    const selected = document.querySelector(`input[name="${key}"]:checked`);
+    if (selected && selected.value === answers[key]) {
+      score++;
+    }
+  }
+
+  alert(`You got ${score} out of ${total} correct.`);
+}
+</script>
